@@ -68,7 +68,6 @@
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <BundleResource Include="Resources\facebook.webp" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -135,12 +134,15 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\logo.png" />
+    <BundleResource Include="Resources\barradivider.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\gmail.png" />
+    <AndroidResource Include="Resources\socialnetwork\facebook.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\twitter.png" />
+    <AndroidResource Include="Resources\socialnetwork\google.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\socialnetwork\twitter.png" />
   </ItemGroup>
 </Project>

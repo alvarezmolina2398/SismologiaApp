@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\NUEVOS PROYECTOS\\Sismologia\\Sismologia.Android\\Sismologia.Android.csproj": {}
+    "D:\\Nuevos Proyectos\\Sismologia\\Sismologia\\Sismologia.Android\\Sismologia.Android.csproj": {}
   },
   "projects": {
-    "D:\\NUEVOS PROYECTOS\\Sismologia\\Sismologia.Android\\Sismologia.Android.csproj": {
+    "D:\\Nuevos Proyectos\\Sismologia\\Sismologia\\Sismologia.Android\\Sismologia.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NUEVOS PROYECTOS\\Sismologia\\Sismologia.Android\\Sismologia.Android.csproj",
+        "projectUniqueName": "D:\\Nuevos Proyectos\\Sismologia\\Sismologia\\Sismologia.Android\\Sismologia.Android.csproj",
         "projectName": "Sismologia.Android",
-        "projectPath": "D:\\NUEVOS PROYECTOS\\Sismologia\\Sismologia.Android\\Sismologia.Android.csproj",
-        "packagesPath": "C:\\Users\\poyo_\\.nuget\\packages\\",
-        "outputPath": "D:\\NUEVOS PROYECTOS\\Sismologia\\Sismologia.Android\\obj\\",
+        "projectPath": "D:\\Nuevos Proyectos\\Sismologia\\Sismologia\\Sismologia.Android\\Sismologia.Android.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\Nuevos Proyectos\\Sismologia\\Sismologia\\Sismologia.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\poyo_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "D:\\NUEVOS PROYECTOS\\Sismologia\\Sismologia\\Sismologia.csproj": {
-                "projectPath": "D:\\NUEVOS PROYECTOS\\Sismologia\\Sismologia\\Sismologia.csproj"
+              "D:\\Nuevos Proyectos\\Sismologia\\Sismologia\\Sismologia\\Sismologia.csproj": {
+                "projectPath": "D:\\Nuevos Proyectos\\Sismologia\\Sismologia\\Sismologia\\Sismologia.csproj"
               }
             }
           }
@@ -45,6 +45,10 @@
             "NETStandard.Library": {
               "target": "Package",
               "version": "[2.0.3, )"
+            },
+            "NGraphics": {
+              "target": "Package",
+              "version": "[0.5.0, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
@@ -58,20 +62,21 @@
         }
       }
     },
-    "D:\\NUEVOS PROYECTOS\\Sismologia\\Sismologia\\Sismologia.csproj": {
+    "D:\\Nuevos Proyectos\\Sismologia\\Sismologia\\Sismologia\\Sismologia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NUEVOS PROYECTOS\\Sismologia\\Sismologia\\Sismologia.csproj",
+        "projectUniqueName": "D:\\Nuevos Proyectos\\Sismologia\\Sismologia\\Sismologia\\Sismologia.csproj",
         "projectName": "Sismologia",
-        "projectPath": "D:\\NUEVOS PROYECTOS\\Sismologia\\Sismologia\\Sismologia.csproj",
-        "packagesPath": "C:\\Users\\poyo_\\.nuget\\packages\\",
-        "outputPath": "D:\\NUEVOS PROYECTOS\\Sismologia\\Sismologia\\obj\\",
+        "projectPath": "D:\\Nuevos Proyectos\\Sismologia\\Sismologia\\Sismologia\\Sismologia.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\Nuevos Proyectos\\Sismologia\\Sismologia\\Sismologia\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\poyo_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -96,11 +101,19 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "NControl": {
+              "target": "Package",
+              "version": "[0.9.1, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "NGraphics": {
+              "target": "Package",
+              "version": "[0.5.0, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

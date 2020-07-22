@@ -6,6 +6,8 @@
              mc:Ignorable="d"
              xmlns:ff="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
              x:Class="Sismologia.Views.login" 
+             xmlns:local="clr-namespace:Sismologia"
+             xmlns:controls="clr-namespace:Sismologia.Controls;assembly=Sismologia"
              Visual="Material"
              BackgroundColor="White">
 
@@ -40,21 +42,49 @@
 
                 </Entry>
 
-                <Label  Grid.Row="2"  Text="Olvidaste tu contraseña?" FontSize="12"  HorizontalOptions="Center" VerticalOptions="Center" TextColor="#949ba3"></Label>
-            </Grid>
-            <Button Text="Login" BorderRadius="20">
-                
-            </Button>
-
-
-            <!--<StackLayout Grid.Row="2" HorizontalOptions="Center" Margin="0,0,0,50" Padding="50">
-                <Label Text="Iniciar Sesion con" HorizontalOptions="Center"  TextColor="#9e9e9e"></Label>
-                <StackLayout Orientation="Horizontal">
-                    <Image Grid.Row="0" WidthRequest="50" HeightRequest="50" Source="facebook.webp"></Image>
-                    <Image Grid.Row="0" WidthRequest="50" HeightRequest="50" Source="gmail.png"></Image>
-                    <Image Grid.Row="0" WidthRequest="50" HeightRequest="50" Source="twitter.png"></Image>
+                <StackLayout Grid.Row="2" Orientation="Horizontal" HorizontalOptions="Center">
+                    <Label  Grid.Row="0"  Text="Olvidaste tu contraseña?" FontSize="12"  HorizontalOptions="Center" VerticalOptions="Center" TextColor="#949ba3"></Label>
+                    <Label  Grid.Row="1"  Text="Presiona Aqui" FontAttributes="Bold" FontSize="12"  HorizontalOptions="Center" VerticalOptions="Center" TextColor="#23baea"></Label>
                 </StackLayout>
-            </StackLayout>-->
+
+                
+            </Grid>
+            <!--<Button Text="Login" BorderRadius="20">
+                
+            </Button>-->
+
+
+            <controls:GradientButton
+                Margin="10"
+                BorderRadius="20"
+                EndColor="#5a41b9"
+                HorizontalOptions="FillAndExpand"
+                StartColor="#6C6FEC"
+                Text="Get started"
+                TextColor="White" />
+
+
+
+            <StackLayout Grid.Row="2" Orientation="Horizontal" HorizontalOptions="Center">
+                <Label  Grid.Row="0"  Text="aun no tienes usuario," FontSize="12"  HorizontalOptions="Center" VerticalOptions="Center" TextColor="#949ba3"></Label>
+                <Label  Grid.Row="1"  Text="Registrate Aqui" FontAttributes="Bold" FontSize="12"  HorizontalOptions="Center" VerticalOptions="Center" TextColor="#23baea"></Label>
+            </StackLayout>
+
+
+            <StackLayout Grid.Row="2" HorizontalOptions="Center" Margin="0,0,0,50" Padding="50">
+                <StackLayout Orientation="Horizontal">
+                    <Image Grid.Row="0" WidthRequest="120" HeightRequest="100" Source="barradivider.png"></Image>
+                    <Label Grid.Row="0" FontSize="18" HorizontalOptions="Center" VerticalOptions="Center"  TextColor="#949ba3" Text="O"></Label>
+                    <Image Grid.Row="0" WidthRequest="120" HeightRequest="100" Source="barradivider.png"></Image>
+                </StackLayout>
+                <Label FontSize="12" HorizontalOptions="Center" VerticalOptions="Center"  TextColor="#949ba3" Text="Inicia sesion  con alguna red social"></Label>
+                <StackLayout Orientation="Horizontal">
+                    <Image Grid.Row="0" WidthRequest="80" HeightRequest="80" Source="facebook.png"></Image>
+                    <Image Grid.Row="0" WidthRequest="80" HeightRequest="80" Source="google.png"></Image>
+                    <Image Grid.Row="0" WidthRequest="80" HeightRequest="80" Source="twitter.png"></Image>
+                </StackLayout>
+                
+            </StackLayout>
 
         </StackLayout>
         

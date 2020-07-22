@@ -1,14 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "ofnQQ6hEkE6Dwn9FOu0BPiswbloDvuIoI5eGgGArJ4g+sJM6x5wKfuRWysBWSYbETAHtXbcShygcWFahQCMNPw==",
+  "dgSpecHash": "qGPm3iaNaygXFElhgUmROssLzDMENmf8B2C4Qr26SO6uwU9WTfYl1AmFlMf0/596/MMpPBTszbI4ntkTcs1CxQ==",
   "success": true,
-  "projectFilePath": "D:\\NUEVOS PROYECTOS\\Sismologia\\Sismologia.iOS\\Sismologia.iOS.csproj",
+  "projectFilePath": "D:\\Nuevos Proyectos\\Sismologia\\Sismologia\\Sismologia.iOS\\Sismologia.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\poyo_\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\poyo_\\.nuget\\packages\\webp.touch\\1.0.8\\webp.touch.1.0.8.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\ncontrol\\0.9.1\\ncontrol.0.9.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\ngraphics\\0.5.0\\ngraphics.0.5.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\system.runtime.serialization.primitives\\4.3.0\\system.runtime.serialization.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\webp.touch\\1.0.8\\webp.touch.1.0.8.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
-    "C:\\Users\\poyo_\\.nuget\\packages\\xamarin.ffimageloading\\2.4.11.982\\xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
-    "C:\\Users\\poyo_\\.nuget\\packages\\xamarin.ffimageloading.forms\\2.4.11.982\\xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\xamarin.ffimageloading\\2.4.11.982\\xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\xamarin.ffimageloading.forms\\2.4.11.982\\xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512"
   ],
   "logs": [
