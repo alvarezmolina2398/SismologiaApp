@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:ff="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             x:Class="Sismologia.Views.login" 
+             Visual="Material"
+             BackgroundColor="White">
+
+
+    <Grid>
+        <!--<ff:CachedImage
+            VerticalOptions="Fill"
+            HorizontalOptions="Fill"
+            Aspect="Fill"
+            Source="http://clarityapplication.com/dev/images/11.jpg" />-->
+        <!--<Grid 
+            BackgroundColor="Black"
+            Opacity=".4" />-->
+
+        <StackLayout
+            VerticalOptions="Center"
+            Spacing="10"
+            Padding="{StaticResource LargePadding}"
+            IsVisible="{Binding IsBusy, Converter={StaticResource InvertedBoolConv}}">
+
+
+
+
+            <Label Text="Login" FontSize="25"  HorizontalOptions="Center" VerticalOptions="Center" TextColor="#4e5663"></Label>
+            <Label Text="Para Continuar debes iniciar Sesion" FontSize="12"  HorizontalOptions="Center" VerticalOptions="Center" TextColor="#949ba3"></Label>
+
+            <Grid  Margin="0,50,0,0">
+                <Entry  Grid.Row="0" Placeholder="Correo Electronico" PlaceholderColor="#23baea">
+
+                </Entry>
+                <Entry Grid.Row="1" Placeholder="Contraseña" IsPassword="True"  PlaceholderColor="#23baea" TextColor="#535a67">
+
+                </Entry>
+
+                <Label  Grid.Row="2"  Text="Olvidaste tu contraseña?" FontSize="12"  HorizontalOptions="Center" VerticalOptions="Center" TextColor="#949ba3"></Label>
+            </Grid>
+            <Button Text="Login" BorderRadius="20">
+                
+            </Button>
+
+
+            <!--<StackLayout Grid.Row="2" HorizontalOptions="Center" Margin="0,0,0,50" Padding="50">
+                <Label Text="Iniciar Sesion con" HorizontalOptions="Center"  TextColor="#9e9e9e"></Label>
+                <StackLayout Orientation="Horizontal">
+                    <Image Grid.Row="0" WidthRequest="50" HeightRequest="50" Source="facebook.webp"></Image>
+                    <Image Grid.Row="0" WidthRequest="50" HeightRequest="50" Source="gmail.png"></Image>
+                    <Image Grid.Row="0" WidthRequest="50" HeightRequest="50" Source="twitter.png"></Image>
+                </StackLayout>
+            </StackLayout>-->
+
+        </StackLayout>
+        
+    </Grid>
+
+</ContentPage>

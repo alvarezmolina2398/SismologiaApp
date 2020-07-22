@@ -1,0 +1,42 @@
+{
+  "version": 2,
+  "dgSpecHash": "ofnQQ6hEkE6Dwn9FOu0BPiswbloDvuIoI5eGgGArJ4g+sJM6x5wKfuRWysBWSYbETAHtXbcShygcWFahQCMNPw==",
+  "success": true,
+  "projectFilePath": "D:\\NUEVOS PROYECTOS\\Sismologia\\Sismologia.iOS\\Sismologia.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\poyo_\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\poyo_\\.nuget\\packages\\webp.touch\\1.0.8\\webp.touch.1.0.8.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Users\\poyo_\\.nuget\\packages\\xamarin.ffimageloading\\2.4.11.982\\xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\poyo_\\.nuget\\packages\\xamarin.ffimageloading.forms\\2.4.11.982\\xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Degradación del paquete detectada: Xamarin.Essentials de 1.5.3.2 a 1.3.1. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n Sismologia.iOS -> Sismologia -> Xamarin.Essentials (>= 1.5.3.2) \r\n Sismologia.iOS -> Xamarin.Essentials (>= 1.3.1)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Degradación del paquete detectada: Xamarin.Forms de 4.7.0.1142 a 4.5.0.495. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n Sismologia.iOS -> Sismologia -> Xamarin.Forms (>= 4.7.0.1142) \r\n Sismologia.iOS -> Xamarin.Forms (>= 4.5.0.495)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
+}
